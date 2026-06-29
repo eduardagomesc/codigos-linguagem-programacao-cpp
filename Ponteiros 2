@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+
+void triplicar(int *n) {
+
+    *n = *n * 3;
+
+}
+
+
+int main() {
+
+
+    int valor = 5;
+
+
+    triplicar(&valor);
+
+
+    cout << valor;
+
+
+    return 0;
+}
