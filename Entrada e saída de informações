@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int idadeUsuario;
+    float alturaUsuario;
+
+
+    cout << "Informe sua idade: ";
+    cin >> idadeUsuario;
+
+
+    cout << "Informe sua altura: ";
+    cin >> alturaUsuario;
+
+
+    cout << "\nInformacoes:" << endl;
+
+    cout << "Idade: " << idadeUsuario << endl;
+
+    cout << "Altura: " << alturaUsuario << endl;
+
+
+    return 0;
+}
