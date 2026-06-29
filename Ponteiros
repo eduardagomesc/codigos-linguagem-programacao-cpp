@@ -1,33 +1,22 @@
 #include <iostream>
-
 using namespace std;
-
 
 int main() {
 
-
     int num1 = 10;
-
     int num2 = 20;
 
-
     int *p1;
-
     int *p2;
 
-
     p1 = &num1;
-
     p2 = &num2;
-
 
     cout << "Valor apontado pelo ponteiro 1: "
          << *p1 << endl;
 
-
     cout << "Valor apontado pelo ponteiro 2: "
          << *p2 << endl;
-
 
     return 0;
 }
