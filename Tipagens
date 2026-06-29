@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    char letra = 'A';
+
+    int numero = 1;
+
+    int resultado;
+
+
+    resultado = letra + numero;
+
+
+    cout << "letra = " << letra << endl;
+
+    cout << "numero = " << numero << endl;
+
+    cout << "Resultado: " << resultado << endl;
+
+
+    return 0;
+}
