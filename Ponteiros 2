@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 
 void triplicar(int *n) {
 
@@ -9,18 +7,13 @@ void triplicar(int *n) {
 
 }
 
-
 int main() {
-
 
     int valor = 5;
 
-
     triplicar(&valor);
 
-
     cout << valor;
-
 
     return 0;
 }
