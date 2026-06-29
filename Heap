@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int *p = new int;
+
+
+    cout << "Digite um numero: ";
+
+    cin >> *p;
+
+
+    cout << "Valor digitado: "
+         << *p << endl;
+
+
+    delete p;
+
+
+    return 0;
+}
