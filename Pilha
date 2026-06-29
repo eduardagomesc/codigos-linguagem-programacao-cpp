@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 
 void func2() {
 
@@ -10,7 +8,6 @@ void func2() {
     cout << "func2: y = " << y << endl;
 
 }
-
 
 void func1() {
 
@@ -22,7 +19,6 @@ void func1() {
 
 }
 
-
 int main() {
 
     int a = 5;
@@ -30,7 +26,6 @@ int main() {
     func1();
 
     cout << "main: a = " << a << endl;
-
 
     return 0;
 }
