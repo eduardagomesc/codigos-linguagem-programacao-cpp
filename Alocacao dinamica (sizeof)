@@ -1,31 +1,18 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
-
 
 int main() {
 
-
     double m;
-
     int e;
-
     char g;
-
     string c;
 
-
-
     cout << "Double: " << sizeof(m) << " bytes" << endl;
-
     cout << "Int: " << sizeof(e) << " bytes" << endl;
-
     cout << "Char: " << sizeof(g) << " bytes" << endl;
-
     cout << "String: " << sizeof(c) << " bytes" << endl;
-
-
 
     return 0;
 
