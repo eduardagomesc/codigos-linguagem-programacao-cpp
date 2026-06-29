@@ -11,13 +11,11 @@ int main() {
     bool aluno = true;
     string nome = "Maria";
 
-
     cout << "Nome: " << nome << endl;
     cout << "Idade: " << idade << endl;
     cout << "Altura: " << altura << endl;
     cout << "Inicial: " << inicial << endl;
     cout << "Aluno: " << aluno << endl;
-
 
     return 0;
 }
