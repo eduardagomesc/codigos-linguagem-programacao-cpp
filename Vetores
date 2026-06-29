@@ -4,25 +4,11 @@ using namespace std;
 
 int main() {
 
-    string marcas[7] = {
+    string marcas[7] = { "Toyota","Honda","Chevrolet","Ford","Volkswagen","Fiat", "Hyundai"};
 
-        "Toyota",
-        "Honda",
-        "Chevrolet",
-        "Ford",
-        "Volkswagen",
-        "Fiat",
-        "Hyundai"
-
-    };
-
-    cout << "Marcas de carros:" << endl;
-
-    for(int i = 0; i < 7; i++) {
-
-        cout << marcas[i] << endl;
-
-    }
+    cout << "Marca na posicao 7: "
+         << marcas[6]
+         << endl;
 
     return 0;
 }
